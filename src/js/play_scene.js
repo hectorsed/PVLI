@@ -18,6 +18,9 @@ var PlayScene = {
 
 	preload : function () {
 
+		this.game.load.baseURL = 'https://hectorsed.github.io/PVLI/scr/';
+    	this.game.load.crossOrigin = 'anonymous';
+
 		this.game.load.image('background', 'images/spacebackground.png');
 		this.game.load.image('ship', 'images/spaceship.png');
 		this.game.load.image('bullet', 'images/bullet.png');
